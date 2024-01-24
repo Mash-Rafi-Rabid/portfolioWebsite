@@ -707,3 +707,188 @@ header .navbar a:hover{
 		opacity: 1;
 	}
 }
+
+/*-------------mobile responsive-------------*/
+@media (max-width:477px){
+
+	.header {
+		
+		padding: 10px 1%;
+		justify-content: center;
+	}
+	.navbar{
+		margin-left: 12px;
+	}
+
+	header .logo {
+		font-size: 15px;
+	}
+
+	header .navbar a {
+		font-size: 12px;
+		margin-right: 10px;
+		
+	}
+	/*home section*/
+	.home {
+		
+		align-items: center;
+		padding: 70px 2% 0px;
+		height: 60vh;
+		margin-bottom: 0px;
+	}
+	.home .home-content h3 {
+		font-size: 20px;
+	}
+	.home .home-content h1 {
+		font-size: 25px;
+	}
+	.home .home-content p {
+		font-size: 15px;
+	}
+	.home-scl a {
+		width: 35px;
+		height: 35px;
+		margin: 14px 10px 14px 0px;
+		
+	}
+	.btn-box {
+		padding: 10px 15px;
+		font-size: 13px;
+	}
+
+	/*about section*/
+	.about {
+		justify-content: flex-start;
+		flex-direction: column;
+		height: 100vh;
+	}
+	.about .about-image {
+		width: 100%;
+	}
+	.about .about-content {
+		width: 80%;
+	}
+	.about .about-content h2 {
+		font-size: 40px;
+		text-align: center;
+	}
+	.about .about-content h4 {
+		font-size: 20px;
+		margin: 1px 0px 15px;
+		text-align: center;
+	}
+	.about .about-content p {
+		font-size: 14px;
+		margin-bottom: 1rem;
+	}
+
+	/*services section*/
+	.services {
+		width: 100%;
+		padding: 0px 5% 20px;
+		font-size: 20px;
+		margin-bottom: 20px;
+		height: auto;
+	}
+	.services .sub-tittle {
+		font-size: 40px;
+		padding-bottom: 40px;
+	}
+	.services .service-list {
+		width: 100%;
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 20px;
+	}
+	.services .service-list div {
+		padding: 30px;
+		font-size: 13px;
+		width: 80%;
+		margin-bottom: 40px;
+	}
+	.services .service-list div i {
+		font-size: 30px;
+		margin-bottom: 15px;
+	}
+	.services .service-list div h2 {
+		font-size: 20px;
+	}
+	
+	/*skill section*/
+	.skill .sub-tittle {
+		font-size: 40px;
+	}
+	.skill .skill-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.skill .skill-container .skill-container-1 {
+		width: 90%;
+		margin-bottom: 25px;
+	}
+
+	.skill-container-1 .bar {
+		margin-top: 20px;
+	}
+	.skill .skill-container .skill-container-2 {
+		width: 90%;
+	}
+
+	/*project section*/
+	.project h2 {
+		font-size: 40px;
+		margin-top: 30px;
+		margin-bottom: 60px;
+	}
+	.project .project-content {
+		justify-content: flex-start;
+		flex-direction: column;
+		
+	}
+	.project .project-content .row {
+		width: 90%;
+		margin-bottom: 30px;
+	}
+
+	/*contact section */
+	.contact {
+		justify-content: flex-start;
+		flex-direction: column;
+		padding: 0px 2% 20px;
+		margin-top: 0px;
+	}
+	.contact .contact-text {
+		width: 90%;
+	}
+	.contact .contact-text h2 {
+		font-size: 40px;
+	}
+	.contact .contact-text h4 {
+		text-align: center;
+	}
+	.contact .contact-text p {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.contact .contact-form {
+		width: 90%;
+	}
+	.contact-form form input, form textarea {
+		width: 100%;
+		padding: 18px;
+		font-size: 15px;
+	}
+	.last-text {
+		margin-top: 10px;
+	}
+	.last-text p {
+		padding: 20px;
+	}
+
+
+
+}
